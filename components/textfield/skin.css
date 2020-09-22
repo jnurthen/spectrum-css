@@ -167,3 +167,14 @@ governing permissions and limitations under the License.
     }
   }
 }
+@media (forced-colors: active) {
+  :root {
+    --spectrum-semantic-positive-color-icon: Highlight;
+    --spectrum-textfield-validation-icon-color-valid: Highlight;
+    --spectrum-textfield-validation-icon-color-error: Highlight;
+    --spectrum-textfield-validation-icon-color-error-hover: Highlight;
+    --spectrum-textfield-icon-color-disabled: Highlight;
+    --spectrum-textfield-validation-icon-color-disabled: Highlight;
+
+  }
+}
