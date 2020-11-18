@@ -198,3 +198,26 @@ governing permissions and limitations under the License.
     }
   }
 }
+@media (forced-colors: active)
+{
+  :root {
+    --spectrum-tag-background-color-disabled: Canvas;
+    --spectrum-tag-background-color-key-focus: Canvas;
+    --spectrum-tag-background-color: Canvas;
+    --spectrum-tag-border-color-disabled: GrayText;
+    --spectrum-tag-border-color-error: Highlight;
+    --spectrum-tag-border-color: CanvasText;
+    --spectrum-tag-icon-color-error: CanvasText;
+    --spectrum-tag-icon-color-selected: CanvasText;
+    --spectrum-tag-removable-icon-color: CanvasText;
+    --spectrum-tag-removable-text-color-key-focus: Highlight;
+    --spectrum-tag-text-color-disabled: GrayText;
+    --spectrum-tag-text-color-key-focus: CanvasText;
+    --spectrum-tag-text-color: CanvasText;
+
+
+  }
+  .spectrum-Tags-item {
+    forced-color-adjust: none; 
+  }
+}
